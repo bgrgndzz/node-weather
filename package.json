@@ -1,0 +1,21 @@
+{
+  "name": "node-weather",
+  "version": "1.0.0",
+  "description": "Weather CLI with Node.js, Google Maps API and DarkSky API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Buğra Gündüz",
+  "license": "MIT",
+  "keywords": [
+    "weather",
+    "cli"
+  ],
+  "repository": "github:bgrgndzz/node-weather",
+  "dependencies": {
+    "request": "^2.85.0",
+    "yargs": "^11.0.0"
+  }
+}
